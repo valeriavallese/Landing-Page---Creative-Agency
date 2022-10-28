@@ -1,0 +1,317 @@
+
+ *{
+    font-family: 'Roboto', sans-serif;
+ }
+
+
+ h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 8em;
+    line-height: 10rem;
+    margin-left: 100px;
+}
+
+h2 {
+    color: #C260BA;
+    padding: 20px 30px;
+}
+
+h6 {
+    color: #F479E7;
+    padding: 10px 30px;
+}
+ 
+ /*navbar*/
+.navbar-brand{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+
+/*main*/
+#main {
+    background-color: black;
+}
+
+
+
+#img-main {
+    height: 550px;
+    width: 750px;
+}
+
+.button-specifies {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    border-color: #C260BA;
+    border-style: solid;
+    border-width: 5px;
+    margin: 150px 160px 30px;
+
+}
+
+.button-specifies:hover {
+    background-color: #C260BA;
+}
+
+.text-button {
+    color: white;
+}
+
+
+.icons {
+    color:#C260BA;
+    margin-bottom: 30px;
+}
+
+
+.icons:hover {
+    color: white;
+}
+
+
+.main-info {
+    text-align: center;
+    padding: 30px;
+   
+
+}
+
+.main-info:hover {
+    background-color: #C260BA;
+}
+
+.title-icons {
+   margin-bottom: 20px;
+   color: white;
+}
+
+.paragraph-icons {
+    color: white;
+}
+
+/*services*/
+
+
+#services {
+    background-image:url(/img/office.jpg);
+    height: 40rem;
+    opacity: 0.5;
+    background-position-y: 20%;
+}
+
+.services-button {
+    width: 200px;
+    height: 60px;
+    border-color: #C260BA;
+    border-style: solid;
+    border-width: 5px;
+    margin:28px 100px;
+}
+
+.services-button:hover {
+    background-color: #C260BA;
+    
+}
+
+.services-btn-text:hover {
+    color: white;
+}
+
+/*works*/
+#works {
+    background-color: black;
+}
+.button-works {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    border-color: #C260BA;
+    border-style: solid;
+    border-width: 5px;
+    margin-left:900px;
+}
+
+.button-works:hover {
+    background-color: #C260BA;
+}
+
+.img-works {
+    width: 400px;
+    height: 320px;
+    margin: 20px 30px;
+    padding: 10px;
+}
+
+.img-carousel {
+    margin: 20px;
+    padding: 5px; 
+}
+
+/*about*/
+
+#about {
+    background-color: black;
+}
+
+.sub-about {
+    color: rgb(96, 94, 91);
+    margin-top: 40px;
+}
+
+.img-about {
+    margin-left: 150px;
+}
+
+.text-about {
+    margin: 30px;
+    
+}
+
+.parag-about {
+    color: white;
+    margin: 20px 30px;
+}
+
+/*clients*/
+.client {
+    width: 700px;
+    height: 600px;
+    border-radius:5% 5% 0 5%;
+    margin-top: 80px;
+}
+
+.p-client {
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    width: 100%;
+    height: 200px;
+    background-color: #C260BA;
+    margin-top: 30px;
+}
+
+.text-testimonials {
+    font-size: 400%;
+    color: white;
+    margin: 80px;
+}
+
+.text-1 {
+    font-family: 'Fasthand', cursive;
+}
+.text-3 {
+    font-family: 'Headland One', serif;
+}
+
+/*news*/
+#news {
+    background-color: black;
+}
+
+.carousels {
+    margin-left: 360px;
+    padding-bottom: 60px;
+}
+
+/*pre-footer*/
+
+#pre-footer {
+    background-color: black;
+}
+.social {
+    color: #F479E7;
+    margin: 40px;
+}
+
+#title-pre-footer {
+    margin-left: 180px;
+    font-size:4rem
+}
+
+#button-pre-footer {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    border-color: #C260BA;
+    border-style: solid;
+    border-width: 5px;
+    margin-left:360px;
+    margin-top: 30px;
+}
+
+#button-pre-footer:hover {
+    background-color: #C260BA;
+}
+
+.city-p-footer {
+    margin-left: 670px;
+    color: white;
+}
+
+.p-footer {
+    text-align: center;
+    color: white;
+}
+
+
+/*footer*/
+.footer{
+    display: block;
+}
+
+/*MEDIA QUERY*/
+
+
+
+@media (max-width:900px) {
+    h1 {
+        margin-left: 25px;
+    }
+
+    #img-main {
+        display: none;
+    }
+
+    .service-hide {
+        display:none;
+    }
+    
+    .img-about {
+       width: 400px;
+       height: 300px; 
+       margin-left: 20px;
+    }
+    
+    .text-testimonials {
+        font-size:medium;
+        margin:20px;
+        padding-top:70px;
+        padding-left: 30px;
+    }
+    #news {
+        display:none;
+    }
+    .social {
+        width: 2px;
+        height: 2px;
+        margin-left: 90px;
+    }
+    .title-pre-footer{
+        margin-left: 10px;
+    }
+    #button-pre-footer{
+        margin-left:140px;
+    }
+}    
